@@ -76,28 +76,28 @@ $(document).ready(function(){
 		// i. client (carousel)
 		
 			$('#client').owlCarousel({
-				items:7,
+				items:10,
 				loop:true,
-				smartSpeed: 800,
+				smartSpeed: 1000,
 				autoplay:true,
 				dots:false,
 				autoplayHoverPause:false,
 				responsive:{
 						0:{
-							items:2
+							items:10
 						},
 						415:{
-							items:2
+							items:10
 						},
 						600:{
-							items:4
+							items:10
 
 						},
 						1199:{
-							items:4
+							items:10
 						},
 						1200:{
-							items:7
+							items:10
 						}
 					}
 				});
