@@ -75,25 +75,25 @@ $(document).ready(function(){
 	
 		// i. client (carousel)
 		
-			$('#client').owlCarousel({
-				items:10,
-				loop:true,
-				smartSpeed: 800,
-				autoplay:true,
-				dots:false,
-				autoplayHoverPause:false,
-				responsive:{
+		$('#client').owlCarousel({
+			items:10,
+			loop:true,
+			smartSpeed: 800,
+			autoplay:true,
+			dots:true,
+			autoplayHoverPause:false,
+			responsive:{
 
-						1200:{
-							items:10
-						}
+					1200:{
+						items:7
 					}
-				});
-				
-				
-				$('.play').on('click',function(){
-					owl.trigger('play.owl.autoplay', 10000)
-				})
+				}
+			});
+			
+			
+			$('.play').on('click',function(){
+				owl.trigger('play.owl.autoplay', 10000)
+			})
 
 
     // 5. welcome animation support
